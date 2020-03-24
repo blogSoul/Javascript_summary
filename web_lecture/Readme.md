@@ -52,3 +52,5 @@ DOM이란 컴퓨터가 문서를 잘 처리할 수 있도록 문서의 구조를
 DOM은 트리 형태를 따릅니다.(족보나 가계도와 비슷합니다.)
 document 객체는 최상위 객체로 자바스크립트에서 document 명령으로 접근합 수 있습니다.
 DOM : Document Object Model -> 문서 객체 모델
+
+#### section 33
