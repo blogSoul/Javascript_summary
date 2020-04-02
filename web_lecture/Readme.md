@@ -67,3 +67,10 @@ setAttribute() 메서드 역시 엘리먼트의 속성 값을 얻어 오지만 �
 
 
 #### section 34
+ 
+ * Chrome에선 개발자 도구 단축키는 ctrl + shift + I입니다. (2020-04-03기준)
+
+getElementByTagName() 메서드는 인자로 HTML 엘리먼트의 테그 이름을 전달하며, 해당 테크의 모든 엘리던트가 배열로 반환됩니다.
+getElementByByClassName() 메서드는 인자로 클래스 이름을 전달하며, 해당 클래스의 모든 엘리먼트가 배열로 반환됩니다.
+getElementByName() 메서드는 인자로 이름을 전달하며, 해당 이름 속성을 가진 모든 엘리먼트가 배열로 반환됩니다.
+input 엘리먼트에 입력된 값을 값 속성으로 얻어 올 수 있습니다.(getAttribute()메서드로는 받아 올 수 없습니다.)
