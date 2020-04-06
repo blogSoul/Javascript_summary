@@ -21,3 +21,12 @@ for(var propertyName in obj){
 }
 ```
 위에 있는 코드처럼 obj배열을 돌아서 변수로 받습니다. 
+
+
+#### section 25 : 변수의 유효 범위
+
+초기의 자바스크립트에서는 변수의 유효 범위가 함수의 유효범위(function scope)를 따랐지만, 현재의 자바스크립트에서는 변수의 유효 범위가 블록의 유효범위(block scope)를 따를 수도 있습니다.
+
+
+#### section 26 : 변수 가림 현상(shadowing) 
+
