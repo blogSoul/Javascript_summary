@@ -91,5 +91,12 @@ document.querySelectAll("h1, h2");
 이외에도 대괄호([])를 이용해서 속성에 대한 필터를 넣을 수 있고 오른쪽 꺾쇠(>)를 이용해서 자식(child)중에서 검색할 수도 있습니다. 쉼표(,)를 이용해서 엘리먼트를 여러 개 선택할 수 있습니다.
 
 
-#### section 36 : CSS 선택자를 이용해서 엘리먼트 선택하기
+#### section 36 : 엘리먼트를 추가하고 삭제하기
+
+엘리먼트를 추가하는 메서드에는 createElement()와 cloneNode()가 있습니다.
+엘리먼트를 배치하는 메서드에는 appendChild()와 insertBefore()가 있습니다.
+엘리먼트를 제거하는 메서드에는 removeChild()가 있습니다.
+
+
+#### section 37 : 콜백 함수
 
