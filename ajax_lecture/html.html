@@ -1,14 +1,13 @@
 <html>
     <head>
-        <meta charset = "UTF-8">
+        <meta charset = "utf-8">
         <style>
             .character { color: black; }
             .word { color: gray; }
         </style>
         <script>
             var req = new XMLHttpRequest();
-            console.log(this.status);
-            req.onreadystatechange = function a(){
+            req.onreadystatechange = function a() {
                 console.log(this.readyState, this.status);
                 if(this.readyState == 4){
                     console.log(this.response);
@@ -21,8 +20,8 @@
                         document.body.appendChild(t);
                     }
                 }
-            };
-            req.open("GET", "./json_data.txt");
+            }
+            req.open("GET", "./json_data.txt")
             req.send();
         </script>
     </head>
