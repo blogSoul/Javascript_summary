@@ -3,6 +3,12 @@
         <meta charset = "utf-8">
         <script>
             var req = new XMLHttpRequest();
+            req.onreadystatechange = function a(){
+                console.log(this.readyState, this.state);
+                if(this.readyState == 4 && this.state == 200){
+                    console.log(this.response);
+                }
+            }
             req.open("GET", "‪‪./data.txt");
             req.send();
         </script>
