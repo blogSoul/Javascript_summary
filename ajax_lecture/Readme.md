@@ -5,6 +5,7 @@
 
 * 해당 프로젝트를 실습하려면 local서버에서 수동하는 것을 추천드립니다!
 
+
 #### section 41 : Ajax 응답을 받아서 처리하기
 
 * 웹 서버가 클라이언트(브라우저)의 요청에 응답할 때, 상황에 따라 응답 코드를 설정해서 내보내주는 주요 응답 코드
@@ -13,11 +14,15 @@
 404: Not found, 클라이언트가 요청한 자료가 없을 때
 500: Internal Server Error, 기타 이유로 서벙[서 오류가 발생해 정상으로 응답할 수 없을 때
 
+
 #### section 42 : JSON(Javascript Object Notification)
 
 파싱은 문자열로 표현된 데이터를 읽어서 구성 성분 단위로 분해하는 작업을 말합니다.
 JSON.stringify(): JSON 문자열에서 javascript로 변환하는 함수
 JSON.parse(): javascript에서 JSON 문자열로 변환하는 함수
 
+
 #### section 43 : Ajax와 JSON
+
+JSON형식의 데이터를 parse할 때, key에 맞는 value가 들어가는지 확인해봐야 한다.
 

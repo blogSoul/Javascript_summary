@@ -3,29 +3,46 @@
     <head>
         <meta charset = "utf-8">
         <link rel = "stylesheet" href = "css.css">
+        <script>
+            function check(n) {
+                var sum =0;
+                for(var i = 0; i< 200000000; ++i){
+                    sum += n;
+                }
+                alert(n);
+                console.log(n);
+                console.log(document.getElementById("songwriter"));
+                console.log(document.getElementById("lyric"));
+            }
+            check(1);
+        </script>
         <style>
-           #songwriter, #lyricist{
+            #songwriter, #lyricist{
                text-align: right;
-           }
+            }
         </style>
     </head>
     <body>
+        <script>check(2);</script>
         <h1>애국가</h1>
         
         <p id = "songwriter">작곡: 안익태</p>
         <img id = "logo" src = http://blogfiles.naver.net/20150715_113/fof_hell_1436931191936oGaMC_JPEG/tumblr_ltv7wz97n91qfhnkio1_5001.jpg height = "30px">
         <p id = "lyricist" style = "color: red;" src = "test">작사: 미상</p>
         <strong>작사:</strong> <i>미상</i>
+        <script>check(3);</script>
         <h2>1절</h2>
         <p class = "lyric">
             동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세.<br>
             무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세.
         </p>
+        <script>check(4);</script>
         <h2>2절</h2>
         <p class = "lyric">
             남산 위에 저 소나무, 철갑을 두른 듯 바람서리 불변함은 우리 기상일세.<br>
             무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세.
         </p>
+        <script>check(5);</script>
         <hr>
         <font>
             작성자: <input name = "author">
