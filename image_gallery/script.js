@@ -8,13 +8,18 @@ req.onreadystatechange = function() {
       var div = document.createElement("div");
       div.setAttribute("class", "image");
       div.onclick = function() {
-         if(this.getAttribute("class").indexOf("image-selected") == -1){
-            this.setAttribute("class", "image image-selected");
-         }
-         else{
-            this.setAttribute("class", "image");
-         };
+         this.classList.toggle("image-selected");
       };
+      div.onmouseover = function() {
+         var element = this;
+         this.thisId = setTimeout(function() {
+            element.classList.add("image-magnified");
+         }, 1000); // 시간을 1초로 설정 
+      };
+      div.onmouseout = function() {
+         clearTimeout(this.timerId);
+         this.classList.remove("image-magnified");
+      }
       var img = document.createElement("img");
       img.src = data[i];
       div.appendChild(img);
@@ -22,12 +27,40 @@ req.onreadystatechange = function() {
       }
   }
 }
-
 req.send();
 
-function selectAll(){
+function selectAll(btn) {
    var images = document.getElementsByClassName("image");
    for(var i = 0; i < images.length; i++){
-      image[i].classList.add("image-selected");
+      if(btn.value == "Unselect All"){
+         images[i].classList.remove("image-selected");
+      } 
+      else {
+         images[i].classList.add("image-selected");
+      }        
    }
+
+   if(btn.value == "Unselect All"){
+      btn.value = "select All";
+   } 
+   else {
+      btn.value = "Unselect All";
+   } 
+}
+
+function slideshow(btn){
+   var images = document.getElementsByClassName("image");
+   var index = 0;
+   images[index].classList.add("image-magnified");
+
+   var intervalId = setInterval(function() {
+      images[index].classList.remove("image-magnified");
+      index++;
+      if(index < images.length){
+         images[index].classList.add("image-magnified");
+      }
+      else{
+         clearInterval(intervalId);
+      }
+    }, 1000);
 }

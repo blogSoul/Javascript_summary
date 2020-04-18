@@ -26,10 +26,10 @@ body{
 }
 
 .image-magnified {
-    z-index: 1;
+    z-index: 1; /* 이미지를 맨 앞에 위치시킴 */
 }
 
-.image-magnified > img{
+ .image-magnified > img { /* 이미지의 크기, 위치, 불투명도 등을 조정 */
     height: 400px;
     width: 600px;
     margin-left: -150px;
