@@ -1,4 +1,4 @@
-## :smile: Javascripts-Summary :smile:
+## :smile: Javascript-Summary :smile:
 
 
 "Try! helloworld 자바스크립트"이라는 책을 정리하고 필요한 정보를 따로 만들어두었습니다.
