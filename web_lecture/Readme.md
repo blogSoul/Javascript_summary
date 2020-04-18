@@ -1,3 +1,6 @@
+## :smile: Content Summary :smile:
+
+
 #### section 29 : javascript, HTML, CSS
 
 웹브라우저는 자바스크립트 코드를 실행시키면서 HTML과 CSS에 변화가 생기면, 다시 해당 내용을 반영하여 렌더링(rendering)합니다.
@@ -8,6 +11,7 @@ css는 웹페이지 안에 있는 요소의 스타일을 나타냅니다.
 브라우저에서는 자바스크립트에서 HTML과 CSS에 접근할 수 있는 API를 제공합니다.
 API: Application Programming interface
 
+
 #### section 30 : window 객체
 
 window.location: 현재 브라우저의 주소를 볼 수 있습니다.
@@ -15,6 +19,7 @@ window.location.href: 현재 브라우저의 주소창에 입력된 주소를 �
 window.navigator: 현재 브라우저에 관한 정보를 볼 수 있습니다. 
 window.screen: 현재 디스플레이의 너비와 높이 등을 볼 수 있습니다.
 window.document: 현재 웹페이지를 구성하는 HTML과 CSS가 모두 저장되어 있습니다. 이 객체를 이용하면 HTML과 CSS에 접근할 수 있습니다.
+
 
 #### section 31 : CSS 다루기
 
@@ -150,5 +155,3 @@ try, catch, finally 구문을 이용해서 예외 처리를 진행합니다.
 #### section 48 : 예외 처리 활용하기
 
 첫 순서로 try 구문이 실행이 된다는 것을 명심합시다!
-
-

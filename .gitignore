@@ -34,6 +34,10 @@ bh_unicode_properties.cache
 # https://packagecontrol.io/packages/sublime-github
 GitHub.sublime-settings
 
+### Java-Web ###
+## ignoring target file
+target/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json

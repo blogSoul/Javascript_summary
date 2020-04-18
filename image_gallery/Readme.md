@@ -1,3 +1,6 @@
+## :smile: Content Summary :smile:
+
+
 #### section 49 : 이미지 갤러리 만들기
 
 context - padding - border - margin - position 순으로 생각하면 됩니다.
@@ -39,3 +42,4 @@ div.onclick = function() {
 
 this.timerId라는 속성을 만들어서 div 태그에 임시적으로 timerId를 기록해 두는 게 좋습니다.
 슬라이드 쇼가 끝나고 중단점에 프로그램이 걸리지 않는 것을 알 수 있습니다. clearInterval() 함수를 통해 더 이상 setInterval의 콜백 함수가 호출되지 않기 때문입니다.
+개발가 도구 안에 Sources를 통해서 디버깅을 할 수 있습니다.
