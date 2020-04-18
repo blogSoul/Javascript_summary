@@ -139,3 +139,8 @@ Source 탭에서 중단점 사용하면 프로그램 실행 도중 원하는 위
 
 #### section 46 : 익명 함수(anonymous function)와 함수 즉시 호출
 
+익명 함수(anonymous function), 즉 이름 없는 함수로 한번만 호출되고 말기 때문에 굳이 이름이 없어도 됩니다.
+
+
+#### section 47 : 예외 처리
+
